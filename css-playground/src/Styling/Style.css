@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* styling for start page starts here  */
+
+.startpage {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+
+.header {
+  background-color: yellow;
+}
+.main {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 50px;
+  justify-content: center;
+  justify-items: center;
+  padding: 100px;
+}
+.box {
+  background-color: yellowgreen;
+  height: 200px;
+  width: 200px;
+}
+
+/* styling for start page ends here  */
