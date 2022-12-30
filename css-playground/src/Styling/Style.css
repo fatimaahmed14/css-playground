@@ -17,16 +17,23 @@
 .main {
   background-color: blueviolet;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 250px);
   gap: 50px;
   justify-content: center;
   justify-items: center;
   padding: 100px;
 }
+.title {
+  margin-left: 480px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xxx-large;
+}
 .box {
   background-color: yellowgreen;
   height: 200px;
   width: 200px;
+  border-radius: 15px;
 }
 
 /* styling for start page ends here  */
