@@ -37,3 +37,19 @@
 }
 
 /* styling for start page ends here  */
+
+/* display page styling starts here  */
+
+.displaypage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-side {
+  background-color: purple;
+}
+
+.right-side {
+  background-color: lightcoral;
+}
+/* display page styling ends here  */

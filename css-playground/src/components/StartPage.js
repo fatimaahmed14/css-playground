@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Styling/Style.css";
 
 function StartPage() {
@@ -8,7 +9,9 @@ function StartPage() {
           <div className="title">Fatima's CSS Playground</div>
         </header>
         <main className="main">
-          <div className="box"></div>
+          <Link to="/display">
+            <div className="box"></div>
+          </Link>
           <div className="box"></div>
           <div className="box"></div>
           <div className="box"></div>

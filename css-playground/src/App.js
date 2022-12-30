@@ -1,9 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import StartPage from "./components/StartPage";
+import DisplayPage from "./components/DisplayPage";
+
 function App() {
   return (
     <div className="App">
-      <StartPage />
+      <Routes>
+        <Route path="/" element={<StartPage />} />
+        <Route path="/display" element={<DisplayPage />} />
+      </Routes>
     </div>
   );
 }
